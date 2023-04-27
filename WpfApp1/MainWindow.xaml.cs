@@ -26,5 +26,22 @@ namespace WpfApp1
             MainFrame.Navigate(new FlowerPage());
             Manager.MainFrame = MainFrame;
         }
+
+        private void BtnBake_Click(object sender, RoutedEventArgs e)
+        {
+            Manager.MainFrame.GoBack();
+        }
+
+        private void MainFrame_ContentRendered(object sender, EventArgs e)
+        {
+            if (MainFrame.CanGoBack)
+            {
+                BtnBake.Visibility = Visibility.Collapsed;
+            }
+            else 
+            {
+                  BtnBake.Visibility= Visibility.Hidden;
+            }
+        }
     }
 }
