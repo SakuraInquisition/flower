@@ -23,3 +23,4 @@ D:\WpfApp1\WpfApp1\obj\Debug\net6.0-windows\FlowerPage.g.cs
 D:\WpfApp1\WpfApp1\obj\Debug\net6.0-windows\FlowerPage.baml
 D:\WpfApp1\WpfApp1\obj\Debug\net6.0-windows\AppEditPage.g.cs
 D:\WpfApp1\WpfApp1\obj\Debug\net6.0-windows\AppEditPage.baml
+D:\WpfApp1\WpfApp1\obj\Debug\net6.0-windows\App.baml

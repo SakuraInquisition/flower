@@ -9,7 +9,7 @@
       Title="FlowerPage">
 
     <Grid>
-        <Button Content="Go!" Width="175" Height="35" Background="#fac" Margin="5" Click="Button_Click"></Button>
+        <Button Content="Go!" Click="Button_Click"></Button>
     </Grid>
     
 </Page>

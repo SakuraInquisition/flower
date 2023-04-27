@@ -19,7 +19,8 @@
         <Grid Background="#bae" Grid.ColumnSpan="2"></Grid>
         <Image Source="kiki.png" HorizontalAlignment="Left" Grid.ColumnSpan="2"></Image>
         <TextBlock Text="Flowers" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1"></TextBlock>
-        <Grid Grid.Row="2" Background="#445c" Grid.ColumnSpan="2"></Grid><Button Content="Back" Name="BtnBake" Width="100" Height="35" HorizontalAlignment="Right" Grid.ColumnSpan="2" Background="#fac" Click="BtnBake_Click"></Button>
+        <Grid Grid.Row="2" Background="#445c" Grid.ColumnSpan="2"></Grid>
+        <Button Content="Back" Name="BtnBake" Width="100" HorizontalAlignment="Right" Grid.ColumnSpan="2" Click="BtnBake_Click"></Button>
         <Frame NavigationUIVisibility="Hidden"  ContentRendered="MainFrame_ContentRendered" Grid.Row="1" Name="MainFrame" Grid.ColumnSpan="2"></Frame>
         
 
