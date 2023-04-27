@@ -23,6 +23,8 @@ namespace WpfApp1
         public MainWindow()
         {
             InitializeComponent();
+            MainFrame.Navigate(new FlowerPage());
+            Manager.MainFrame = MainFrame;
         }
     }
 }
